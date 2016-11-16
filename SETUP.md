@@ -1,6 +1,8 @@
 Below are setup instructions for the Big Data course. You will need to
 complete the setup steps below to install the necessary software on your
-machine.
+machine. First, make sure to clone this repository so you have all the files. If you are not familiar with git you should install it here: https://git-scm.com/
+
+`git clone http://gitlab.cambridgespark.com/pub/bigdata.git`
 
 
 ## Setup
