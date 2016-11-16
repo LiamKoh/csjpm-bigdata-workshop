@@ -66,7 +66,7 @@ variable name PYSPARK_DRIVER_PYTHON_OPTS and its value as notebook
 
 Open a shell in your project's directory and execute:
 ```
-\spark-2.0.2-bin-hadoop2.7\bin\pyspark
+spark-2.0.2-bin-hadoop2.7\bin\pyspark
 ```
 
 This should open an ipython notebook. Use it to open the file `load_libraries.ipynb`. Execute the first cell to make sure you have all of the require libraries.
