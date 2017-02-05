@@ -60,13 +60,17 @@ This should open an ipython notebook. Use it to open the file `load_libraries.ip
 
 ### Windows
 
-Set the following environment variables:
-```
-variable name PYSPARK_DRIVER_PYTHON and its value as ipython
-variable name PYSPARK_DRIVER_PYTHON_OPTS and its value as notebook
-```
+You will need to set environment variables so PySpark can run as a iPython notebook.
 
-Open a shell in your project's directory and execute:
+Here's a tutorial explaining how ot set environment variables on Windows if you have never done this before: http://www.computerhope.com/issues/ch000549.htm
+
+Once you've familiarised yourself with this tutorial you need to set the following environment variables:
+
+`PYSPARK_DRIVER_PYTHON` with the value of `ipython`
+
+`PYSPARK_DRIVER_PYTHON_OPTS` with the value of `notebook`
+
+Open a shell (`cmd`) in your project's directory and execute:
 ```
 spark-2.0.2-bin-hadoop2.7\bin\pyspark
 ```
