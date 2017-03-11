@@ -19,7 +19,9 @@ This includes python 2.7.9 and the necessary libraries we will be using: `numpy`
 
 ### Install Java
 
-Install **Java 7** from [https://java.com/en/download/help/index_installing.xml](https://java.com/en/download/help/index_installing.xml).
+Install **Java 8** if you don't have it already from [http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
+
+You need the ```Java SE Development Kit```.
 
 ### Create a directory for your project
 
