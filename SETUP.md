@@ -35,7 +35,7 @@ it.
 
 ### Download Apache Spark
 
-Download Apache Spark 2.0.2 from: [http://spark.apache.org/downloads.html](http://spark.apache.org/downloads.html). Place `spark-2.0.2-bin-hadoop2.7.tgz` in your project directory and extract it.
+Download Apache Spark 2.1.0 from: [http://spark.apache.org/downloads.html](http://spark.apache.org/downloads.html). Place `spark-2.1.0-bin-hadoop2.7.tgz` in your project directory and extract it.
 
 On Windows, you can extract `tgz` files using 7-zip – available from [http://www.7-zip.org/](http://www.7-zip.org/).
 
@@ -55,7 +55,7 @@ Open a terminal in your project directory and run the following command:
 ```
 export PYSPARK_DRIVER_PYTHON=ipython
 export PYSPARK_DRIVER_PYTHON_OPTS=notebook
-./spark-2.0.2-bin-hadoop2.7/bin/pyspark
+./spark-2.1.0-bin-hadoop2.7/bin/pyspark
 ```
 
 This should open an ipython notebook. Use it to open the file `load_libraries.ipynb`. Execute the first cell to make sure you have all of the require libraries.
@@ -74,7 +74,7 @@ Once you've familiarised yourself with this tutorial you need to set the followi
 
 Open a shell (`cmd`) in your project's directory and execute:
 ```
-spark-2.0.2-bin-hadoop2.7\bin\pyspark
+spark-2.1.0 -bin-hadoop2.7\bin\pyspark
 ```
 
 This should open an ipython notebook. Use it to open the file `load_libraries.ipynb`. Execute the first cell to make sure you have all of the require libraries.
