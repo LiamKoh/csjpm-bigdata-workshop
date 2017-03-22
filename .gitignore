@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+bigdata-analytics/
+metastore_db/
+spark-2.1.0-bin-hadoop2.7
+*.log
+*.json
